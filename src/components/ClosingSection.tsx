@@ -53,7 +53,7 @@ export default function ClosingSection() {
           transition={{ duration: 1, delay: 0.8 }}
           className="font-serif text-xl text-wood italic"
         >
-          Wassalamu'alaikum Warahmatullahi Wabarakatuh
+          Wassalamu&apos;alaikum Warahmatullahi Wabarakatuh
         </motion.p>
       </div>
 

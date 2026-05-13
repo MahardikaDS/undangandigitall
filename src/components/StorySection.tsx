@@ -25,7 +25,7 @@ export default function StorySection() {
           transition={{ duration: 1, delay: 0.2 }}
           className="font-serif text-xl md:text-2xl leading-relaxed text-secondary/90 italic"
         >
-          "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang."
+          &quot;Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.&quot;
         </motion.p>
 
         <motion.div

@@ -11,7 +11,7 @@ export default function ProfileSection() {
         transition={{ duration: 0.8 }}
         className="font-serif text-xl md:text-2xl text-wood mb-4 italic"
       >
-        Assalamu'alaikum Warahmatullahi Wabarakatuh
+        Assalamu&apos;alaikum Warahmatullahi Wabarakatuh
       </motion.p>
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
