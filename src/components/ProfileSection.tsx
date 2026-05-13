@@ -32,12 +32,12 @@ export default function ProfileSection() {
           transition={{ duration: 1 }}
           className="flex flex-col items-center"
         >
-          <div className="w-48 h-64 relative mb-8 rounded-t-full overflow-hidden border border-wood/30">
+          <div className="w-48 h-64 relative mb-8 rounded-t-full overflow-hidden border border-wood/30 group cursor-pointer">
             <Image
               src="/images/1.jpeg"
               alt="Alex"
               fill
-              className="object-cover object-left grayscale opacity-80"
+              className="object-cover object-left grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 group-active:grayscale-0 group-active:opacity-100 transition-all duration-700"
             />
           </div>
           <h3 className="font-serif text-3xl mb-2">Aditya Qamara Putra</h3>
@@ -65,12 +65,12 @@ export default function ProfileSection() {
           transition={{ duration: 1 }}
           className="flex flex-col items-center"
         >
-          <div className="w-48 h-64 relative mb-8 rounded-t-full overflow-hidden border border-wood/30">
+          <div className="w-48 h-64 relative mb-8 rounded-t-full overflow-hidden border border-wood/30 group cursor-pointer">
             <Image
               src="/images/2.jpeg"
               alt="Sarah"
               fill
-              className="object-cover object-right grayscale opacity-80"
+              className="object-cover object-right grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 group-active:grayscale-0 group-active:opacity-100 transition-all duration-700"
             />
           </div>
           <h3 className="font-serif text-3xl mb-2">Afifatus Zehro</h3>
