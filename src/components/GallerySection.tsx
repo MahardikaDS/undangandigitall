@@ -49,7 +49,7 @@ export default function GallerySection() {
                 src={photo.src}
                 alt={`Gallery image ${index + 1}`}
                 fill
-                className="object-cover transition-all duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0 group-active:grayscale-0 group-active:scale-110"
+                className="object-cover transition-all duration-700 group-hover:scale-110 group-active:scale-110"
               />
               <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-500" />
             </motion.div>

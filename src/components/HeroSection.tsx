@@ -11,7 +11,7 @@ export default function HeroSection() {
           alt="Alex & Sarah"
           fill
           priority
-          className="object-cover object-center opacity-40 mix-blend-luminosity scale-105"
+          className="object-cover object-center opacity-40 scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/50 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-b from-primary via-transparent to-transparent opacity-80" />
@@ -35,7 +35,7 @@ export default function HeroSection() {
           transition={{ duration: 1.2, delay: 0.2 }}
           className="font-serif text-6xl md:text-8xl text-secondary drop-shadow-2xl mb-8"
         >
-          Aditya & Afifatus
+          Adit & Ifa
         </motion.h1>
 
         <motion.div

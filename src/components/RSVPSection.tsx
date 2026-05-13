@@ -73,7 +73,7 @@ export default function RSVPSection() {
       setWishes([newWish, ...wishes]);
 
       const phoneNumber = "6281234567890";
-      const whatsappMsg = `Assalamu'alaikum.\n\nSaya ${name}, ingin memberikan ucapan untuk pernikahan Aditya & Afifatus:\n\n"${message}"`;
+      const whatsappMsg = `Assalamu'alaikum.\n\nSaya ${name}, ingin memberikan ucapan untuk pernikahan Adit & Ifa:\n\n"${message}"`;
       window.open(
         `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMsg)}`,
         "_blank",

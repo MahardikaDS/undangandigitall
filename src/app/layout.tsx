@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Pernikahan Aditya & Afifatus",
+  title: "Pernikahan Adit & Ifa",
   description: "Anda diundang untuk merayakan hari bahagia kami.",
 };
 

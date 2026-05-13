@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { MailOpen } from "lucide-react";
+import Image from "next/image";
 
 interface WelcomeScreenProps {
   guestName: string | null;
@@ -14,13 +15,18 @@ export default function WelcomeScreen({ guestName, onOpen }: WelcomeScreenProps)
       transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
       className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-primary text-secondary"
     >
-      <div className="absolute inset-0 overflow-hidden">
-        {/* Subtle background decoration */}
-        <div className="absolute -top-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-wood-dark opacity-20 blur-[120px]" />
-        <div className="absolute -bottom-[20%] -right-[10%] w-[50%] h-[50%] rounded-full bg-wood opacity-10 blur-[120px]" />
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
+        <Image
+          src="/images/Hero.jpeg"
+          alt="Welcome Background"
+          fill
+          priority
+          className="object-cover object-center opacity-50 scale-105 blur-[2px]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-primary/40" />
       </div>
 
-      <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-lg w-full">
+      <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-lg w-full mt-12">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -36,7 +42,7 @@ export default function WelcomeScreen({ guestName, onOpen }: WelcomeScreenProps)
           transition={{ delay: 0.5, duration: 1 }}
           className="font-serif text-5xl md:text-6xl mb-12"
         >
-          Aditya & Afifatus
+          Adit & Ifa
         </motion.h1>
 
         <motion.div
