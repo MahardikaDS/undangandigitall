@@ -48,7 +48,7 @@ export default function WelcomeScreen({ guestName, onOpen }: WelcomeScreenProps)
           <p className="text-sm font-sans text-white/60 mb-2">Yth. Bapak/Ibu/Saudara/i,</p>
           <div className="border border-white/10 bg-white/5 backdrop-blur-sm rounded-lg py-4 px-6 inline-block min-w-[200px]">
             <p className="font-serif text-xl">
-              {guestName ? decodeURIComponent(guestName) : "Tamu Kehormatan"}
+              {guestName ? decodeURIComponent(guestName).replace(/[-_]/g, " ") : "Tamu Kehormatan"}
             </p>
           </div>
         </motion.div>
