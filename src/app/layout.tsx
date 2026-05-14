@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       {
         url: "/images/Hero.jpeg",
         width: 800,
-        height: 600,
+        height: 800,
         alt: "Pernikahan Adit & Ifa",
       },
     ],
