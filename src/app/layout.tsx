@@ -13,8 +13,25 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ifa-adit.vercel.app'),
   title: "Pernikahan Adit & Ifa",
   description: "Anda diundang untuk merayakan hari bahagia kami.",
+  openGraph: {
+    title: "Pernikahan Adit & Ifa",
+    description: "Anda diundang untuk merayakan hari bahagia kami.",
+    url: "https://ifa-adit.vercel.app",
+    siteName: "Pernikahan Adit & Ifa",
+    images: [
+      {
+        url: "/images/Hero.jpeg",
+        width: 800,
+        height: 600,
+        alt: "Pernikahan Adit & Ifa",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
